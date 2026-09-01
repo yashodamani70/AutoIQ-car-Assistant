@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoIQ | The AI Assistant for Car Prices & Buying Advice</title>
+<meta name="description" content="AutoIQ is an AI chat assistant that gives you real-time prices, specs, and comparisons for BMW, Mercedes-Benz, Lamborghini, and hundreds of other car models — instantly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo" aria-label="AutoIQ home">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M3 13.5L4.6 8.4C4.86 7.56 5.64 7 6.52 7H17.48C18.36 7 19.14 7.56 19.4 8.4L21 13.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="2.5" y="13.5" width="19" height="6" rx="2" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="7" cy="19.5" r="1.6" fill="currentColor"/>
+        <circle cx="17" cy="19.5" r="1.6" fill="currentColor"/>
+        <path d="M9 10.2H10.6M13.4 10.2H15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span>AutoIQ</span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">Ask AutoIQ Free</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Your AI Assistant for Car Prices</p>
+        <h1>Ask About Any Car. Get the Real Price. Instantly.</h1>
+        <p class="hero-sub">From a BMW 3 and 4th Series to a Lamborghini Huracán, AutoIQ chats with you in plain language and pulls live market pricing, trims, and comparisons across every major brand — no dealership calls required.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Chat with AutoIQ</a>
+          <a href="#features" class="btn btn-secondary">See What It Can Do</a>
+        </div>
+        <ul class="hero-trust">
+          <li><strong>1.4M+</strong><span>Price Queries Answered</span></li>
+          <li><strong>60+</strong><span>Brands Covered</span></li>
+          <li><strong>4.9/5</strong><span>User Rating</span></li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80" alt="Black BMW sedan parked in a modern showroom, the kind of vehicle AutoIQ can price instantly">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          AutoIQ is online — ask about any make or model
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-bar" aria-label="Brands covered">
+    <div class="container trust-bar-inner">
+      <span>Pricing data across</span>
+      <ul>
+        <li>BMW</li>
+        <li>Mercedes-Benz</li>
+        <li>Lamborghini</li>
+        <li>Audi</li>
+        <li>Porsche</li>
+        <li>Toyota</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <p class="section-eyebrow">Why AutoIQ</p>
+      <h2>A car expert in your pocket, minus the sales pitch</h2>
+      <p class="section-sub">AutoIQ blends live market data with natural conversation, so you get straight answers on price, value, and fit — not a script pushing you toward a lot visit.</p>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 6.5C4 5.1 5.1 4 6.5 4H17.5C18.9 4 20 5.1 20 6.5V13.5C20 14.9 18.9 16 17.5 16H10L6 19.5V16H6.5C5.1 16 4 14.9 4 13.5V6.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M8.5 10L11 8L13 9.5L15.5 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Real-Time Price Lookups</h3>
+          <p>Ask "What's a 2024 BMW M4 going for?" and get current market range, MSRP, and regional variation in seconds.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7"/>
+              <rect x="13" y="5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.7"/>
+              <path d="M11 8.5H13" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <path d="M6 12V16.5C6 17.6 6.9 18.5 8 18.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <path d="M17 12V16.5C17 17.6 16.1 18.5 15 18.5H13" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Side-by-Side Comparisons</h3>
+          <p>Compare a Mercedes C-Class against an Audi A4 on price, mileage, resale value, and trim differences — in one reply.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 3L19 6V11C19 15.5 16 19.3 12 21C8 19.3 5 15.5 5 11V6L12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M9 11.5L11 13.5L15 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Fair-Price Verification</h3>
+          <p>Paste a dealer quote and AutoIQ flags whether it's above, at, or below current market — with the data to back it up.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M5 20C5 16.5 8.1 14 12 14C15.9 14 19 16.5 19 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Personalized Recommendations</h3>
+          <p>Tell AutoIQ your budget and needs, and it suggests real models — from a Corolla to a Lamborghini Urus — that fit.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase">
+    <div class="container showcase-grid">
+      <div class="showcase-media">
+        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1100&q=80" alt="Silver Mercedes-Benz luxury sedan parked outdoors, an example of a car AutoIQ can price and compare">
+      </div>
+      <div class="showcase-copy">
+        <p class="section-eyebrow">How It Works</p>
+        <h2>From question to confident decision</h2>
+        <p class="section-sub">AutoIQ works like texting a friend who happens to know every trim, price bracket, and market trend in the auto industry.</p>
+        <ul class="showcase-list">
+          <li>
+            <div class="showcase-list-head"><strong>Ask</strong><span>Step 1</span></div>
+            <p>Type any question — "Is a used Lamborghini Huracán under $180K worth it?" — in plain English.</p>
+          </li>
+          <li>
+            <div class="showcase-list-head"><strong>Analyze</strong><span>Step 2</span></div>
+            <p>AutoIQ cross-references live listings, MSRP data, and depreciation trends for that exact model and year.</p>
+          </li>
+          <li>
+            <div class="showcase-list-head"><strong>Decide</strong><span>Step 3</span></div>
+            <p>Get a clear price range, trim breakdown, and honest recommendation — with sources, not guesswork.</p>
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Try a Real Question</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">1.4M+</span>
+        <span class="stat-label">Price Queries Answered</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">60+</span>
+        <span class="stat-label">Brands Covered</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">3.2s</span>
+        <span class="stat-label">Avg. Response Time</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">98%</span>
+        <span class="stat-label">Pricing Accuracy Rate</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <p class="section-eyebrow">Testimonials</p>
+      <h2>Buyers who negotiated smarter with AutoIQ</h2>
+
+      <div class="testimonial-grid">
+        <figure class="testimonial-card">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <blockquote>I pasted a dealer's quote on a Benz GLE and AutoIQ told me it was $3,400 over market. Walked in with numbers and got the price down.</blockquote>
+          <figcaption>
+            <span class="testimonial-name">Trevor Nakamura</span>
+            <span class="testimonial-role">Bought a Mercedes-Benz GLE 350</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <blockquote>I was choosing between a BMW X5 and an Audi Q7. AutoIQ broke down price, resale value, and running costs in one chat. Saved me weeks of research.</blockquote>
+          <figcaption>
+            <span class="testimonial-name">Anika Desai</span>
+            <span class="testimonial-role">Bought a BMW X5</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <blockquote>Asked it about Lamborghini Huracán pricing just out of curiosity and it gave me a full trim and market breakdown. Genuinely impressive depth.</blockquote>
+          <figcaption>
+            <span class="testimonial-name">Marcus Whitfield</span>
+            <span class="testimonial-role">Exotic car enthusiast</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <p class="section-eyebrow">Pricing</p>
+      <h2>Plans built for how you shop</h2>
+      <p class="section-sub">Chat for free, or unlock deeper price history and unlimited comparisons with a paid plan. Cancel anytime.</p>
+
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Free</h3>
+          <p class="price-desc">For casual research on a car or two.</p>
+          <p class="price"><span>$0</span>/mo</p>
+          <ul>
+            <li>15 chat queries / month</li>
+            <li>Current market price lookups</li>
+            <li>Basic model comparisons</li>
+            <li>Community support</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary">Start Free</a>
+        </div>
+
+        <div class="price-card price-card-featured">
+          <p class="price-tag">Most Popular</p>
+          <h3>Plus</h3>
+          <p class="price-desc">For active buyers negotiating a real purchase.</p>
+          <p class="price"><span>$12</span>/mo</p>
+          <ul>
+            <li>Unlimited chat queries</li>
+            <li>5-year price history &amp; depreciation trends</li>
+            <li>Dealer quote fairness checks</li>
+            <li>Unlimited side-by-side comparisons</li>
+            <li>Priority chat response</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Dealer Pro</h3>
+          <p class="price-desc">For dealerships and resellers needing bulk insight.</p>
+          <p class="price"><span>$79</span>/mo</p>
+          <ul>
+            <li>Everything in Plus</li>
+            <li>Bulk inventory price benchmarking</li>
+            <li>API access for pricing data</li>
+            <li>Dedicated account manager</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary">Talk to Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-media">
+        <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1100&q=80" alt="Orange Lamborghini sports car on display, representing the exotic car pricing data AutoIQ provides">
+      </div>
+      <div class="about-copy">
+        <p class="section-eyebrow">Why Choose Us</p>
+        <h2>Built to make car pricing honest again</h2>
+        <p class="section-sub">We got tired of opaque sticker prices and dealer markups that made no sense. AutoIQ was built in 2022 to put real, current market data directly into a conversation — from a Corolla to a Lamborghini.</p>
+        <ul class="about-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Every brand, every tier</strong><span>Economy to exotic — BMW, Benz, Lamborghini, and 60+ more.</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Prices updated daily</strong><span>Pulled from live listings and dealer data, not stale averages.</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>No dealer bias</strong><span>AutoIQ isn't paid to push any brand, model, or lot.</span></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-copy">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2>Have a car in mind? Ask us directly.</h2>
+        <p class="section-sub">Send us the make, model, and what you're trying to figure out — price range, comparison, or a quote check — and our team will follow up within one business day.</p>
+        <ul class="contact-details">
+          <li><strong>Phone:</strong> (800) 555‑0173</li>
+          <li><strong>Email:</strong> hello@autoiq.ai</li>
+          <li><strong>Chat Support:</strong> Available 24/7</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Sam Whitaker" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="sam@email.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="I'm comparing a 2023 BMW M3 and a Mercedes-AMG C63 — what's the real price gap?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="container final-cta-inner">
+      <h2>Stop guessing what a car is really worth</h2>
+      <p>Ask AutoIQ about any BMW, Mercedes, Lamborghini, or everyday car — and get a straight, data-backed answer.</p>
+      <a href="#contact" class="btn btn-light">Chat with AutoIQ Free</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo footer-logo">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M3 13.5L4.6 8.4C4.86 7.56 5.64 7 6.52 7H17.48C18.36 7 19.14 7.56 19.4 8.4L21 13.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="2.5" y="13.5" width="19" height="6" rx="2" stroke="currentColor" stroke-width="1.8"/>
+          <circle cx="7" cy="19.5" r="1.6" fill="currentColor"/>
+          <circle cx="17" cy="19.5" r="1.6" fill="currentColor"/>
+        </svg>
+        <span>AutoIQ</span>
+      </a>
+      <p>An AI chat assistant that gives you real-time prices, specs, and comparisons across every car brand — from Toyota to Lamborghini.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="AutoIQ on Facebook">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M14 9H16.5V6H14C12.34 6 11 7.34 11 9V11H9V14H11V19H14V14H16.2L16.5 11H14V9.5C14 9.22 14.22 9 14.5 9H14Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" aria-label="AutoIQ on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.3" stroke="currentColor" stroke-width="1.6"/><circle cx="16.6" cy="7.4" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="#" aria-label="AutoIQ on X">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </a>
+        <a href="#" aria-label="AutoIQ on LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.6"/><circle cx="8.3" cy="8.3" r="1.1" fill="currentColor"/><path d="M8.3 11V16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 16.5V13.2C12 12 12.8 11 14 11C15.2 11 15.7 12 15.7 13.2V16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="Product">
+      <h4>Product</h4>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#">Brand Coverage</a></li>
+        <li><a href="#">API Access</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Company">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Resources">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Price Guides</a></li>
+        <li><a href="#">Model Database</a></li>
+        <li><a href="#">Market Reports</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Legal">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Data Sources</a></li>
+        <li><a href="#">Disclaimer</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; 2026 AutoIQ, Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
